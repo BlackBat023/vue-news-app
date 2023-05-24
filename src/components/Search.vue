@@ -1,7 +1,7 @@
 <template>
-    <div class="col-2">
+    <div class="col-12">
         <input type="text" placeholder="SEARCH" v-model="searchQ">
-        <button class="btn btn-primary" @click="changeNews">Submit</button>
+        <button class="mx-2 btn btn-dark" @click="changeNews">Submit</button>
     </div>
 </template>
 
